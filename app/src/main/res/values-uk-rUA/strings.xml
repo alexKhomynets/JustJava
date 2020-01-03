@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Coffee Order</string>
+    <string name="any_chocolate">"Шоколад, як додаток? "</string>
+    <string name="any_cream">"Взбиті вершки, як додаток? "</string>
+    <string name="caffeine">Кави не сьорбнеш, доки поле не заповниш :)</string>
+    <string name="chocolate">Шоколад</string>
+    <string name="decrement">Ти збожеволів? Не можна замовляти нуль або від\'ємне число кав!</string>
+    <string name="increment">Вітаю. Ти можеш зупинити час як Филипп Дж. Фрай ;)</string>
+    <string name="name_in_the_subject">"Замовлення від "</string>
+    <string name="no_name_error">Необхідно ввести ім\'я!</string>
+    <string name="quantity">Кількість</string>
+    <string name="quantity_submit">"Кількість: "</string>
+    <string name="thank_you">Дякую!</string>
+    <string name="toppings">Додатки</string>
+    <string name="whippedCream">Взбиті вершки</string>
+    <string name="total_submit">"Загальна вартість: "</string>
+    <string name="enter_name">Введіть ім\'я</string>
+    <string name="reset_button">Обнулити</string>
+    <string name="order_button">Замовити</string>
+</resources>

@@ -1,3 +1,49 @@
-<resources>
-    <string name="app_name">Just Java</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Coffee Order</string>
+
+    <!--Background hint for entering the name-->
+    <string name="enter_name">Enter your name</string>
+
+    <!-- Header text for the list of toppings [CHAR LIMIT=20] -->
+    <string name="toppings">Toppings</string>
+
+    <!--Toppings  [CHAR LIMIT=NONE]-->
+    <string name="whippedCream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+
+    <!--Quantity header [CHAR LIMIT=NONE]-->
+    <string name="quantity">Quantity</string>
+
+    <!--Thank you massage in the order summary [CHAR LIMIT=NONE]-->
+    <string name="thank_you">Thank you!</string>
+
+    <!--Name of the person who ordered for the subject in the email app. [CHAR LIMIT=NONE]-->
+    <string name="name_in_the_subject">The order from </string>
+
+    <!--Asking, if there was a whipped cream-->
+    <string name="any_cream">Any whipped cream? </string>
+
+    <!--Asking, if there was a chocolate-->
+    <string name="any_chocolate">Any chocolate? </string>
+
+    <!--Quantity for the submit order method-->
+    <string name="quantity_submit">Quantity: <xliff:g id="quantity_submit" example="4">%d</xliff:g></string>
+
+    <!--Total for the submit method-->
+    <string name="total_submit" >Total: <xliff:g id="total_submit" example="5">%d</xliff:g></string>
+
+    <!--Order button text-->
+    <string name="order_button">Order</string>
+
+    <!--Reset button text-->
+    <string name="reset_button">Reset</string>
+
+    <!--Toaster massages-->
+    <string name="caffeine">No name, no caffeine :)</string>
+
+    <string name="no_name_error">User name is required!</string>
+
+    <string name="increment">Congratulations. Now you stopped the time like Philip J. Fry ;)</string>
+
+    <string name="decrement">Cannot take zero or negative number of coffee, are you crazy?</string>
 </resources>
