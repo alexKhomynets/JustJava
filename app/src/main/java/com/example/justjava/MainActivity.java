@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
             String nameSaver = userName.getText().toString();
             Intent intent = new Intent(Intent.ACTION_SENDTO);
             intent.setData(Uri.parse("mailto:")); // only email apps should handle this
-            intent.putExtra(Intent.EXTRA_EMAIL, "rakamakafon79@gmail.com");
+            intent.putExtra(Intent.EXTRA_EMAIL, "coffeeOrder@gmail.com");
             intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.name_in_the_subject) + nameSaver);
             intent.putExtra(Intent.EXTRA_TEXT, totalSummary);
             if (intent.resolveActivity(getPackageManager()) != null) {
